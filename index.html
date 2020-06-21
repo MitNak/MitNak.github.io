@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- OGP(Open GraphProtocol)を使用する宣言 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MitNak Project</title>
+
+    <!-- OGP -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MitNak's portfolio">
+    <meta property="og:description" content="表現者MitNakのポートフォリオサイトです">
+    <meta property="og:image" content="URL">
+    <meta property="og:image:alt" content="画像alt">
+    <meta property="og:url" content="https://www.MitNak.github.io"> 
+    <meta property="og:site_name" content="MitNak's portfolio">
+    
+    <!-- facebook -->
+    <meta property="article:author">
+
+    <!-- Twitter Card -->
+     <!-- cardtype:summary/summary_large_image -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@MitNak5">
+    <meta name="twitter:title" content="MitNak's portfolio">
+    <meta name="twitter:description" content="表現者MitNakのポートフォリオサイトです">
+    <meta name=":image:src" content="">
+    <meta name="twitter:site" content="MitNak's portfolio">
+    
+
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body class="vsc-initialized">
+    <header id="header">
+        <!-- header要素 -->
+        <div class="header-container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">MitNak<br>Project</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#news" class="nav-link">news</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+                        <li class="nav-item"><a href="#sample-voice" class="nav-link">sample-voice</a></li>
+                        <li class="nav-item"><a href="#schedule" class="nav-link">schedule</a></li>
+                        <li class="nav-item"><a href="#inquiry" class="nav-link">inquiry</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main">
+        <div id="news" class="container text-center">
+            <h1 class="m-5">news</h1>
+        </div>
+        <hr>
+
+        <div id="about" class="container text-center">
+            <h1 class="m-5">about</h1>
+
+            <div class="row">
+                <div class="col-sm-5">
+                    <img src="./img/profile.jpg" class="rounded-circle" width="200" height="200" alt="プロフィール">
+                </div>
+                <div class="col-sm-5">
+                    <p></p>
+                </div>
+            </div>
+
+            
+            <div id="media">
+                <h2 class="text-center">media</h2>
+                
+                <div id="twitter" class="row m-3">
+                    <div class="col-sm-5">
+                        <a href="https://twitter.com/MitNak5"><img src="./img/sns/Twitter.png" alt="Twitter" width="70" height="70"></a>
+                    </div>
+                    <div class="col-sm-5">
+                        <p>日常的な呟きです</p>
+                    </div>
+                </div>
+
+                <div id="facebook" class="row m-3">
+                    <div class="col-sm-5 order-sm-2">
+                        <a href="https://www.facebook.com/MitNak5"><img src="./img/sns/Facebook.png" alt="Facebook" width="70" height="70"></a>
+                    </div>
+                    <div class="col-sm-5 order-sm-1">
+                        <p>活動記録です</p>
+                    </div>
+                </div>
+
+                <div id="tumblr" class="row m-3">
+                    <div class="col-sm-5">
+                        <a href="https://www.tumblr.com/blog/mitnak"><img src="./img/sns/tumblr.png" alt="tumblr" width="90" height="90"></a>
+                    </div>
+                    <div class="col-sm-5">
+                        <p>デザイナー関係アウトプット/英語の勉強がてら</p>
+                    </div>
+                </div>
+
+                <div id="note" class="row m-3">
+                    <div class="col-sm-5 order-sm-2">
+                        <a href="https://www.youtube.com/channel/UCmybWAV-vGgQka73nlOlA2w?view_as=subscriber"><img src="./img/sns/note.png" alt="Youtube" width="100" height="100"></a>
+                    </div>
+                    <div class="col-sm-5 order-sm-1">
+                        <p>文章・音声関係のアウトプット</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="sample-voice" class="container text-center">
+            <h1 class="m-5">sample-voice</h1>
+            <video></video>
+
+        </div>
+        <hr>
+        <div id="schedule" class="container text-center">
+            <h1 class="m-5">schedule</h1>
+            <p class="text-center">出演スケジュールはTigetにアップしております</p>
+            <iframe src="https://tiget.net/users/237897/event_calendar" width="100%" height="482" frameborder="0"></iframe>
+        </div>
+        <hr>
+        <div id="inquiry" class="container text-center">
+            <h1 class="m-5">inquiry</h1>
+        </div>
+
+    </main>
+        
+        
+    <footer class="container">
+        <div class="row copyarea text-center">
+            <div class="col-sm-12">
+                <p class="copy">&copy;MitNak Project</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+        <!-- <h1 class="title"><span>M</span>
+        <span>i</span>
+        <span>t</span>
+        <span>N</span>
+        <span>a</span>
+        <span>k</span>
+        <span>P</span>
+        <span>r</span>
+        <span>o</span>
+        <span>j</span>
+        <span>e</span>
+        <span>c</span>
+        <span>t</span>
+    </h1> -->
+
+
+    
+    
+        <!-- <div class="header-container">
+            <div class="header-line">
+                <div class="header-logo">
+                    <h1>MitNak Project</h1>
+                </div>
+                <ul class="header-menu">
+                    <li>home</li>
+                    <li>news</li>
+                    <li>about</li>
+                    <li>inquiry</li>
+                </ul>
+            </div>
+     -->
+<!--     
+            <div class="header-profile">
+                
+                <div class="header-profile-image">
+                    <img src="./img/profile.jpg" width="120" height="120" alt="プロフィール画像">
+                </div>    
+                <div class="header-profile-description">
+                    <h1>MitNak(ミットナック)</h1>
+                    <p>朗読家、役者</p>
+                    <ul class="header-SNS-icon">
+                        <li>
+                            <a href="https://mitnak.tumblr.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="./img/sns/tumblr.png" width="30" height="30" alt="インスタ">
+                            </a>
+        
+                        </li>
+                        <li>
+                            <a href="" target="_blank" rel="noopener noreferrer">
+                                <img src="./img/sns/twitter.jpg" width="30" height="30" alt="twitter">
+                                </a>
+        
+                        </li>
+                        <li>
+                            <a href="" target="_blank" rel="noopener noreferrer">
+                                <img src="./img/sns/facebook.jpg" width="30" height="30" alt="facebook">
+                                </a>
+        
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+        </div> -->
